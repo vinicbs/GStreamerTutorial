@@ -17,6 +17,8 @@ public:
 	Tutorial4(int argc, char **argv);
 	~Tutorial4();
 	int init();
+	/* Forward definition of the message processing function */
+	static void handle_message(CustomData *data, GstMessage *msg);
 
 private:
 	int argc;
