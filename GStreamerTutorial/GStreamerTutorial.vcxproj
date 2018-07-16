@@ -61,21 +61,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="PropertySheet.props" />
     <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-1.0.props" />
+    <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-audio-1.0.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="PropertySheet.props" />
     <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-1.0.props" />
+    <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-audio-1.0.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="PropertySheet.props" />
     <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-1.0.props" />
+    <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-audio-1.0.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="PropertySheet.props" />
     <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-1.0.props" />
+    <Import Project="..\..\..\..\..\..\gstreamer\1.0\x86\share\vs\2010\libs\gstreamer-audio-1.0.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -163,6 +167,10 @@
     <ClInclude Include="Tutorial2.h" />
     <ClInclude Include="Tutorial3.h" />
     <ClInclude Include="Tutorial4.h" />
+    <ClInclude Include="Tutorial5.h" />
+    <ClInclude Include="Tutorial6.h" />
+    <ClInclude Include="Tutorial7.h" />
+    <ClInclude Include="Tutorial8.h" />
     <ClInclude Include="Tutorials.h" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +184,10 @@
     <ClCompile Include="Tutorial2.cpp" />
     <ClCompile Include="Tutorial3.cpp" />
     <ClCompile Include="Tutorial4.cpp" />
+    <ClCompile Include="Tutorial5.cpp" />
+    <ClCompile Include="Tutorial6.cpp" />
+    <ClCompile Include="Tutorial7.cpp" />
+    <ClCompile Include="Tutorial8.cpp" />
     <ClCompile Include="Tutorials.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
